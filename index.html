@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjetura de Goldbach</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conjetura de Goldbach</h1>
+    </header>
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>La Conjetura de Goldbach es uno de los problemas más antiguos y aún no resueltos en teoría de números. Propuesta por el matemático prusiano Christian Goldbach en 1742, la conjetura establece: "Todo número par mayor que 2 puede escribirse como la suma de dos números primos."</p>
+        </section>
+        <section id="ejemplos">
+            <h2>Ejemplos</h2>
+            <ul>
+                <li>4 = 2 + 2</li>
+                <li>6 = 3 + 3</li>
+                <li>8 = 3 + 5</li>
+                <li>10 = 3 + 7 o 5 + 5</li>
+            </ul>
+        </section>
+        <section id="importancia">
+            <h2>Importancia</h2>
+            <p>La conjetura ha sido probada para numeros hasta valores muy altos utilizando computadoras, pero no ha sido demostrada para todos los números pares de manera general. Es un problema importante porque su resolución ayudaría a entender mejor la distribución de los números primos.</p>
+        </section>
+        <section id="trabajo-actual">
+            <h2>Trabajo Actual</h2>
+            <p>Matemáticos y científicos continúan trabajando en su demostración, utilizando técnicas avanzadas y poder computacional. Sin embargo, la conjetura sigue sin una prueba formal y general que la valide o invalide completamente.</p>
+        </section>
+        <section id="calculadora">
+            <h2>Calculadora de Conjetura de Goldbach</h2>
+            <p>Introduce un número par mayor que 2 para verificar si puede escribirse como la suma de dos números primos:</p>
+            <input type="number" id="number-input" min="4" step="2">
+            <button onclick="verifyGoldbach()">Verificar</button>
+            <p id="result"></p>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
